@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e7d560-ec69-4754-b5d1-29ce67cf4fa2" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo.keystore" afterPath="$PROJECT_DIR$/app/demo.keystore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Demo.iws" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7359813">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.4906542">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -2250,8 +2250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7359813">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.4906542">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
