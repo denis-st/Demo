@@ -13,6 +13,16 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    signingConfigs {
+        release {
+            keyAlias 'alias_name'
+            keyPassword System.getenv("KEYPWD")
+            storeFile file('demo.keystore')
+            storePassword System.getenv("KSTOREPWD")
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
