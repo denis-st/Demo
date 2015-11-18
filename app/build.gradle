@@ -10,8 +10,8 @@ android {
         applicationId "talkware.com.demo"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.01"
+        versionCode 2
+        versionName "1.02"
     }
 
     signingConfigs {
