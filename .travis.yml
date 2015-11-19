@@ -17,4 +17,5 @@ android:
 
 script:
 #  - ./gradlew build
-  - ./gradlew --debug --stacktrace assembleRelease crashlyticsUploadDistributionRelease
+#  - ./gradlew --debug --stacktrace assembleRelease crashlyticsUploadDistributionRelease
+  - ./gradlew assembleRelease crashlyticsUploadDistributionRelease
