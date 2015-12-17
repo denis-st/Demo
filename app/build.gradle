@@ -6,7 +6,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
-            def gitBranch = "git rev-parse --abbrev-ref HEAD".execute().text.trim()
+            def gitBranch = System.getenv("TRAVIS_BRANCH") ?: "git rev-parse --abbrev-ref HEAD".execute().text.trim()
             def gitHash = "git rev-parse --short HEAD".execute().text.trim()
             def gitCommitCounter = "git rev-list HEAD --count".execute().text.trim()
 
