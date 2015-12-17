@@ -17,7 +17,7 @@ android {
         versionCode 2
         versionName "1.02"
         
-        println '!!!!!!!! Branch: ${gitBranch}, Hash: ${gitHash}, Counter: ${gitCommitCounter}'
+        println ("!!!!!!!! Branch: "+gitBranch+", Hash: "+gitHash+", Counter: "+gitCommitCounter)
     }
 
     signingConfigs {
