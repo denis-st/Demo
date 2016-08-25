@@ -7,16 +7,16 @@ env:
     #store
     - secure: "xxJJE03cse/NYG+7L8B/9Q3qdEV/NOjbLn4lQVzgVYsEThItbTi98h6yC14wGOf6vTJDKyVaWeTxYkcSvKLqLRfc7aSXmWvHjzPu9PF/wrnY9akj/1HPT7/fV0gFDByq1Wrl/hj7NFLa69uISzv955OEeQRwh1zf0xamb8JdoujETWpPw2kC/78jKmnbFSGWgZ56cj3ZYQ0JB8ZtowqHbKC9Tc6/Uou2Lfvldq8RJDOScbGPmOUZX0cEPyiUUNs4C0oWlTDwbJ0CjFYYp+tqxI/YsVW/YSYOrkY7BP1Hdhp4oDVeBAIkwIlJB/WLJDrDIjHqJq7fBaIMO87ij/vJAb6Y0zorAdSZd1QMqt6dPO/iUEeKedOcAeHJL6ouSpG2CNmGm9QngvOTIm6r3GCWiIU088nQIfiNkT0FkPshxyaUdsOPmNnwrCxZrTt+cgNsvHdvvcR69XAWqz1df6JDS0rjShcX2NVbeNXHLM/ax5Z2JR8VtDGrwgbf0VJQkt05bHlPBApf3oHjkM8ADezWkSTI5JsWjHqH+rKHaF/uKnLjqWEhPdYqdt1XDscOFjnnKjUEQ/IuSYSKNcwmDPHXRvKbDBKbg0iJVoru5H0endV1PutofURYl4QEi9nWwo8ELgIAgK/KNb37dlE8LSWZXt67BDrBCRQ38HY0/ZDUwt8="
 
-#android:
-#  components:
-#    - android-22
-#    - build-tools-22.0.1
-#    - extra-android-support
-#    - extra-android-m2repository
-#    - sys-img-armeabi-v7a-android-21
+android:
+  components:
+    - android-22
+    - build-tools-22.0.1
+    - extra-android-support
+    - extra-android-m2repository
+    - sys-img-armeabi-v7a-android-21
 
 script:
-#  - ./gradlew build
-#  - ./gradlew --debug --stacktrace assembleRelease crashlyticsUploadDistributionRelease
-#  - ./gradlew assembleRelease crashlyticsUploadDistributionRelease
-  - echo TEST
+  - ./gradlew build
+  - ./gradlew --debug --stacktrace assembleRelease crashlyticsUploadDistributionRelease
+  - ./gradlew assembleRelease crashlyticsUploadDistributionRelease
+#  - echo TEST
