@@ -12,8 +12,8 @@ pipeline {
 	stages {
 		stage("Prepare") {
 			steps {
-            echo "${TRAVIS_COMMIT_MSG} + ${TRAVIS_BRANCH} + ${TRAVIS_BETA_DEPLOY}"
-            sh 'echo "$TRAVIS_COMMIT_MSG - $TRAVIS_BRANCH - $TRAVIS_BETA_DEPLOY"'
+				echo "${TRAVIS_COMMIT_MSG} + ${TRAVIS_BRANCH} + ${TRAVIS_BETA_DEPLOY}"
+				sh 'echo $TRAVIS_COMMIT_MSG ! $TRAVIS_BRANCH ! $TRAVIS_BETA_DEPLOY'
 			}
 		}
 	}
