@@ -1,6 +1,10 @@
 def commitMessage = { sh(returnStdout: true, script: 'git log --format=%B --no-merges -n 1 || echo ""').trim() }
 
 node {
+	stage("Checkout") {
+		checkout scm
+	}
+
 	stage('Preparation') {
 		env.TRAVIS_COMMIT_MSG = commitMessage()
 		env.TRAVIS_BRANCH = env.BRANCH_NAME
