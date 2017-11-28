@@ -1,4 +1,4 @@
-def commitMessage() = { sh(returnStdout: true, script: 'git log --format=%B --no-merges -n 1 || echo ""').trim() }
+def commitMessage = { sh(returnStdout: true, script: 'git log --format=%B --no-merges -n 1 || echo ""').trim() }
 
 node {
 	stage('Preparation') {
