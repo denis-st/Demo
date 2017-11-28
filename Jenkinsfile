@@ -12,7 +12,7 @@ node {
 	}
 	
 	stage('Build') {
-		echo "Hi there! 1-2-"
+		echo "Hi there! 1-2-3-"
 		echo "--- ${TRAVIS_COMMIT_MSG} + ${TRAVIS_BRANCH} + ${TRAVIS_BETA_DEPLOY} + ${env.CHANGE_ID} %"
 		sh 'echo ++ $TRAVIS_COMMIT_MSG ! $TRAVIS_BRANCH ! $TRAVIS_BETA_DEPLOY ! $CHANGE_ID %'
 	}
